@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{5E95D35F-84D1-489D-B8FA-93F2B359AA9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{5E95D35F-84D1-489D-B8FA-93F2B359AA9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{C7FFCD9F-8264-489C-8482-5ED214E17F8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{C7FFCD9F-8264-489C-8482-5ED214E17F8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{31BE9A67-E474-47BE-A855-3DC00307E783}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{31BE9A67-E474-47BE-A855-3DC00307E783}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{0C633F25-13E4-43D7-AB48-B8ADA65E040E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{0C633F25-13E4-43D7-AB48-B8ADA65E040E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{679FAC14-C9C2-46C9-9BEE-ADBC96D31B26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{0C633F25-13E4-43D7-AB48-B8ADA65E040E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C633F25-13E4-43D7-AB48-B8ADA65E040E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C633F25-13E4-43D7-AB48-B8ADA65E040E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{679FAC14-C9C2-46C9-9BEE-ADBC96D31B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{679FAC14-C9C2-46C9-9BEE-ADBC96D31B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{679FAC14-C9C2-46C9-9BEE-ADBC96D31B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{679FAC14-C9C2-46C9-9BEE-ADBC96D31B26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
