@@ -12,4 +12,15 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.11" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Aspects\Autofac\Validation\" />
+    <Folder Include="CrossCuttingConcerns\Logging\" />
+    <Folder Include="CrossCuttingConcerns\Caching\" />
+    <Folder Include="CrossCuttingConcerns\Validation\" />
+    <Folder Include="DataAccess\EntityFramework\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Utilities\Interceptors\" />
+    <Folder Include="Utilities\Results\" />
+  </ItemGroup>
+
 </Project>
