@@ -8,4 +8,8 @@
     <Folder Include="Abstract\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Downloads\KampFinalProject-master\KampFinalProject-master\Core\Core.csproj" />
+  </ItemGroup>
+
 </Project>
